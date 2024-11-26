@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitando_largura {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.secao_topo {
+    background-color: #2f86d6;
+}
+
+.container_topo {
+    padding: 35px 0;
+    position: relative;
+}
+
+.topo_logo {
+    position: relative;
+}
+
+.topo_logo img {
+    width: 80px;
+}
+
+.topo_logo div {
+    position: absolute;
+    left: 95px;
+    top: 0;
+}
+
+.topo_logo div p {   
+    color: #fff;
+    font-weight: 600;
+}
+
+.topo_links {
+    position: absolute;
+    right: 0;
+    top: 65px;
+}
+
+.topo_links a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.container_principal {
+    padding: 100px 0;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.celula_escondida {
+    visibility: hidden;
+}
+
+table thead th {
+    background-color: #f1f3f7;
+    padding: 20px 40px;
+}
+
+table thead th p {
+    color:#a89f9f;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+table thead th h2 {
+    font-size: 32px;
+}
+
+.primeira_celula {
+    width: 350px;
+    text-align: left;
+    font-weight: 600;
+    background-color: #f1f3f7;
+}
+
+table tbody td {
+    font-weight: 500;
+    padding: 20px 40px;
+    border-right: 1px solid #f1f3f7;
+    border-bottom: 1px solid #f1f3f7;
+}
+
+.marcador_azul {
+    background: #2f86d6;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.rodape {
+    background-color: #2f86d6;
+    padding-top: 1px;
+}
+
+.rodape_logo {
+    position: relative;
+    width: 320px;
+    margin: 70px auto 15px auto;
+}
+
+.rodape_logo img {
+    width: 80px;
+}
+
+.rodape_logo div {
+    position: absolute;
+    left: 95px;
+    top: 0;
+}
+
+.rodape_logo p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.container_paragrafo {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.desenvolvido_por {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f1f3f7;
+    font-weight: 600;
+}
+
+.desenvolvido_por a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #2f86d6;
+}
